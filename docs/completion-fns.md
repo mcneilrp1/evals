@@ -1,5 +1,4 @@
 # Completion Functions
-
 ## What are completion functions
 In [run-evals.md](run-evals.md), we learned how to make calls to `oaieval` to run an eval against a completion function. Completion Functions are generalizations of model completions, where a "completion" is some text output that would be our answer to the prompt. For example, if "Who played the girl elf in the hobbit?" is our prompt, the correct completion is "Evangeline Lilly". While we can just test a model directly to see if it generates "Evangeline Lilly", we can imagine doing numerous other operations under the hood to improve our ability to answer this question, like giving the model access to a browser to look up the answer before responding. Making it easy to implement this kind of under-the-hood operators before responding is the motivation behind building Completion Functions.
 
