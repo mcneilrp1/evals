@@ -9,7 +9,7 @@ With Evals, we aim to make it as simple as possible to build an eval while writi
 To get set up with evals, follow the [setup instructions below](README.md#Setup).
 
 #### Running evals
-- Learn how to run existing evals: [run-evals.md](docs/run-evals.md).
+- Learn how to run existing evals: [**run-evals.md**](docs/run-evals.md).
 - Familiarize yourself with the existing eval templates: [eval-templates.md](docs/eval-templates.md).
 
 #### Writing evals
