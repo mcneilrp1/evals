@@ -94,6 +94,10 @@ class ModelBasedClassify(evals.Eval):
             assert "choice" in test_sample
             metrics["metascore"] = choice == test_sample["choice"]
 
+        metadata = test_sample.get("metadata")
+        if metadata is not None and isinstance(metadata, dict):
+            evals.record.record_extra(**metadata)
+
         evals.record.record_metrics(**metrics)
 
         return choice
