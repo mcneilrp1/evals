@@ -1,3 +1,7 @@
 mypy:
-	mypy --config-file=mypy.ini --no-site-packages .
+	
 
+Bop
+House
+S
+\\'
